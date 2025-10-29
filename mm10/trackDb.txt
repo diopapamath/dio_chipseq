@@ -53,3 +53,84 @@ longLabel WTs H3K4me1 ChIP-seq
 type bigWig
 visibility full
 autoScale on
+
+# BED peak tracks 
+track DKO1_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/DKO1-H3K4me1_chip_summits.bed
+shortLabel DKO1 H3K4me1 Peaks
+longLabel DKO1 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 255,0,0
+
+track DKO2_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/DKO2-H3K4me1_chip_summits.bed
+shortLabel DKO2 H3K4me1 Peaks
+longLabel DKO2 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 255,0,0
+
+track SKO1_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/SKO1-H3K4me1_chip_summits.bed
+shortLabel SKO1 H3K4me1 Peaks
+longLabel SKO1 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 0,0,255
+
+track SKO2_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/SKO2-H3K4me1_chip_summits.bed
+shortLabel SKO2 H3K4me1 Peaks
+longLabel SKO2 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 0,0,255
+
+track WT1_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/WT1-H3K4me1_chip_summits.bed
+shortLabel WT1 H3K4me1 Peaks
+longLabel WT1 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 0,128,0
+
+track WT2_H3K4me1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/WT2-H3K4me1_chip_summits.bed
+shortLabel WT2 H3K4me1 Peaks
+longLabel WT2 H3K4me1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 0,128,0
+
+track SKO1_BACH1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/SKO1-BACH1_chip_summits.bed
+shortLabel SKO1 BACH1 Peaks
+longLabel SKO1 BACH1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 255,165,0
+
+track SKO2_BACH1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/SKO2-BACH1_chip_summits.bed
+shortLabel SKO2 BACH1 Peaks
+longLabel SKO2 BACH1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 255,165,0
+
+track WT1_BACH1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/WT1-BACH1_chip_summits.bed
+shortLabel WT1 BACH1 Peaks
+longLabel WT1 BACH1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 128,0,128
+
+track WT2_BACH1_peaks
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/chipseq_hub/WT2-BACH1_chip_summits.bed
+shortLabel WT2 BACH1 Peaks
+longLabel WT2 BACH1 ChIP-seq summit peaks
+type bed
+visibility dense
+color 128,0,128
