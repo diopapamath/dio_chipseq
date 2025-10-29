@@ -1,0 +1,5 @@
+hub MyChipSeqHub
+shortLabel ChipSeqHub
+longLabel My ChIP-seq BigWig tracks
+genomesFile genomes.txt
+email dipapamath@hotmail.com
