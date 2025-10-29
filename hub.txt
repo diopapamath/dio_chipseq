@@ -1,6 +1,6 @@
 hub MyChipSeqHub
 shortLabel ChipSeqHub
 longLabel My ChIP-seq BigWig and BED peak tracks
-genomesFile genomes.txt
+genomesFile mm10/genomes.txt
 email dipapamath@hotmail.com
 
