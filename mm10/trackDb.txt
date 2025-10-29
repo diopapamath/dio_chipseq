@@ -1,8 +1,66 @@
+# BigWig tracks
+track DKOs_H3K4me1
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/DKOs_H3K4me1_final.bw
+shortLabel DKOs_H3K4me1
+longLabel DKOs H3K4me1 ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track DKOs_Maf
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/DKOs_Maf_final.bw
+shortLabel DKOs_Maf
+longLabel DKOs Maf ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track SKOs_BACH1
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKOs_BACH1_final.bw
+shortLabel SKOs_BACH1
+longLabel SKOs BACH1 ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track SKOs_H3K4m1
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKOs_H3K4m1_final.bw
+shortLabel SKOs_H3K4m1
+longLabel SKOs H3K4me1 ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track SKOs_Maf
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKOs_Maf_final.bw
+shortLabel SKOs_Maf
+longLabel SKOs Maf ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track WTs_BACH1
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WTs_BACH1_final.bw
+shortLabel WTs_BACH1
+longLabel WTs BACH1 ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+track WTs_H3K4m1
+bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WTs_H3K4m1_final.bw
+shortLabel WTs_H3K4m1
+longLabel WTs H3K4me1 ChIP-seq
+type bigWig
+visibility full
+autoScale on
+
+# BED peak tracks using bedDetail
 track DKO1_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/DKO1-H3K4me1_chip_summits.bed
 shortLabel DKO1 H3K4me1 Peaks
 longLabel DKO1 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 255,0,0
 
@@ -10,7 +68,7 @@ track DKO2_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/DKO2-H3K4me1_chip_summits.bed
 shortLabel DKO2 H3K4me1 Peaks
 longLabel DKO2 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 255,0,0
 
@@ -18,7 +76,7 @@ track SKO1_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKO1-H3K4me1_chip_summits.bed
 shortLabel SKO1 H3K4me1 Peaks
 longLabel SKO1 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 0,0,255
 
@@ -26,7 +84,7 @@ track SKO2_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKO2-H3K4me1_chip_summits.bed
 shortLabel SKO2 H3K4me1 Peaks
 longLabel SKO2 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 0,0,255
 
@@ -34,7 +92,7 @@ track WT1_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WT1-H3K4me1_chip_summits.bed
 shortLabel WT1 H3K4me1 Peaks
 longLabel WT1 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 0,128,0
 
@@ -42,7 +100,7 @@ track WT2_H3K4me1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WT2-H3K4me1_chip_summits.bed
 shortLabel WT2 H3K4me1 Peaks
 longLabel WT2 H3K4me1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 0,128,0
 
@@ -50,7 +108,7 @@ track SKO1_BACH1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKO1-BACH1_chip_summits.bed
 shortLabel SKO1 BACH1 Peaks
 longLabel SKO1 BACH1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 255,165,0
 
@@ -58,7 +116,7 @@ track SKO2_BACH1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/SKO2-BACH1_chip_summits.bed
 shortLabel SKO2 BACH1 Peaks
 longLabel SKO2 BACH1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 255,165,0
 
@@ -66,7 +124,7 @@ track WT1_BACH1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WT1-BACH1_chip_summits.bed
 shortLabel WT1 BACH1 Peaks
 longLabel WT1 BACH1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 128,0,128
 
@@ -74,6 +132,6 @@ track WT2_BACH1_peaks
 bigDataUrl https://github.com/diopapamath/dio_chipseq/raw/main/WT2-BACH1_chip_summits.bed
 shortLabel WT2 BACH1 Peaks
 longLabel WT2 BACH1 ChIP-seq summit peaks
-type bed
+type bedDetail
 visibility dense
 color 128,0,128
